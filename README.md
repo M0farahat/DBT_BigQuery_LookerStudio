@@ -1,15 +1,36 @@
-Welcome to your new dbt project!
+# 🧠 Sales Analytics with dbt + BigQuery
 
-### Using the starter project
+This project demonstrates a complete modern analytics workflow using:
+- **Google BigQuery** for cloud-scale data warehousing
+- **dbt (data build tool)** for modeling, testing, and documentation
+- **GitHub** for version control and collaboration
 
-Try running the following commands:
-- dbt run
-- dbt test
+---
 
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+---
+
+## 🚀 What This Project Does
+
+- Loads raw sales data into **BigQuery**
+- Cleans and transforms it into staging models
+- Builds intermediate and final reporting tables
+- Includes data quality tests (`not_null`, `unique`)
+- Tracks versioning and collaboration via GitHub
+
+---
+
+## 🛠 Tech Stack
+
+| Tool      | Purpose                            |
+|-----------|------------------------------------|
+| BigQuery  | Cloud data warehouse               |
+| dbt       | Transformations, tests, docs       |
+| GitHub    | Version control                    |
+
+---
+
+
+
+
+
