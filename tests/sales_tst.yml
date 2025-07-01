@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: final_sales
+    description: "Final sales model with aggregated revenue"
+    tests:
+      - not_null:
+          column_name: country
+      - not_null:
+          column_name: total_orders
